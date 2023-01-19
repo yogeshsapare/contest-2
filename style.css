@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    display: flex;
+    background: #1E1E1E;
+    overflow: hidden;
+}
+.wrapper{
+    background: #262626;
+    border-radius: 25px;
+    margin: 20px 10px;
+}
+.left{
+    width: 20%;
+    height: 99vh;
+    position: fixed;
+}
+.right{
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 21%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 56px 50px;
+    gap: 35px;
+}
+.info{
+    height: 50vh;
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.detail{
+    text-align: center;
+}
+.detail h1{
+    margin-bottom: 10px;
+}
+.detail p{
+   margin-bottom: 36px;
+}
+.btn{
+    background: #111111;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 83%;
+    margin-bottom: 24px;
+}
+.left .botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    margin-top: 56px;
+    margin: 56px 20px;
+}
+.content p{
+    align-items: flex-start;
+}
+.right .content-container{
+    display: flex;
+    gap: 30px;
+}
+a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 65px;
+}
+.text p{
+    margin-bottom: 60px;
+}
+table{
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 34px;
+    margin-bottom: 35px;
+    margin-top: 18px;
+}
+th,td{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    padding: 21px 15px;
+}
+th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    padding: 21px 15px;
+    text-align: left;
+}
+td:last-child , th:last-child{
+    border-right: none;
+}
+.table1 h1{
+    margin-bottom: 18px;
+    margin-top: 37px;
+    margin-left: 56px;
+}
